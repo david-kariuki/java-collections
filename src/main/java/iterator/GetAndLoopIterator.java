@@ -43,6 +43,8 @@ public class GetAndLoopIterator {
         // Get set iterator
         Iterator<String> stringsSetIterator = stringsSet.iterator(); // Get set iterator
 
+        System.out.println(); // Separate outputs with a single line
+
         // Iterate iterator
         while (stringsSetIterator.hasNext()) {
             System.out.println(stringsSetIterator.next());
