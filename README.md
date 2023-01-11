@@ -12,7 +12,7 @@
 
 ## Course Content
 
-1.  Java Collections
+1.  Java Collections Introduction
 2.  Java Collections - Overview
 3.  Java Iterator
 4.  Java Iterable
