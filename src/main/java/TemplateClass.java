@@ -4,8 +4,6 @@
  * @since 11/01/2023
  */
 
-package iterator;
-
 public class TemplateClass {
 
     /**
