@@ -1,12 +1,10 @@
 /**
  * @note
- * @note
  * @author David Kariuki
  * @since /01/2023
  */
 
 package iterator;
-
 
 public class TemplateClass {
 
