@@ -23,6 +23,11 @@ Iterator.
 | remove() | Removes the latest element returned from next() from the Collection the Iterator is iterating over. |
 | forEachRemaining() | Iterates over all remaining elements in the Iterator and calls a Java Lambda Expression passing
 each remaining element as parameter to the lambda expression. |
-	
-	
-	
+
+
+<br>
+### Reference 
+
+Java Collections by `Jakob Jenkov`
+<br>Website -> https://jenkov.com/tutorials/java-collections
+<br>Iterator Topic Page -> https://jenkov.com/tutorials/java-collections/iterator.html
