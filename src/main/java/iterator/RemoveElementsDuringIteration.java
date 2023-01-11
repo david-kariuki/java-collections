@@ -29,7 +29,7 @@ public class RemoveElementsDuringIteration {
         numberList.add(912);
         numberList.add(913);
 
-        Iterator<Integer> numberListIterator = numberList.iterator(); // Get list iterator
+        Iterator<Integer> numberListIterator = numberList.iterator(); // Get lists' iterator
 
         // Iterate iterator
         while (numberListIterator.hasNext()) {

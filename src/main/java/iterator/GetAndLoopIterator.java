@@ -26,7 +26,7 @@ public class GetAndLoopIterator {
         stringsList.add("List Item Two");
         stringsList.add("List Item Three");
 
-        Iterator<String> stringsListIterator = stringsList.iterator(); // Get list iterator
+        Iterator<String> stringsListIterator = stringsList.iterator(); // Get lists' iterator
 
         // Iterate iterator
         while (stringsListIterator.hasNext()) {

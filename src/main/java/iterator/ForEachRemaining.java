@@ -28,7 +28,7 @@ public class ForEachRemaining {
         namesList.add("Kariuki");
         namesList.add("Kamau");
 
-        Iterator<String> namesListIterator = namesList.iterator(); // Get list iterator
+        Iterator<String> namesListIterator = namesList.iterator(); // Get lists' iterator
 
         // Call forEachRemaining() method on iterator
         namesListIterator.forEachRemaining((element) -> System.out.println(element));

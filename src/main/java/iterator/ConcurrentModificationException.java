@@ -27,7 +27,7 @@ public class ConcurrentModificationException {
         numberList.add(456);
         numberList.add(789);
 
-        Iterator<Integer> numberListIterator = numberList.iterator(); // Get list iterator
+        Iterator<Integer> numberListIterator = numberList.iterator(); // Get lists' iterator
 
         // Iterate iterator
         while (numberListIterator.hasNext()) {
