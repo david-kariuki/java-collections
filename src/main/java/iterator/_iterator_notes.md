@@ -26,8 +26,9 @@ each remaining element as parameter to the lambda expression. |
 
 
 <br>
+
 ### Reference 
 
 Java Collections by `Jakob Jenkov`
-<br>Website -> https://jenkov.com/tutorials/java-collections
-<br>Iterator Topic Page -> https://jenkov.com/tutorials/java-collections/iterator.html
+<br>[Website](https://jenkov.com/tutorials/java-collections)
+<br>[Iterator Topic Page](https://jenkov.com/tutorials/java-collections/iterator.html)
