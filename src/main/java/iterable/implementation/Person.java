@@ -1,25 +1,24 @@
-/**
- * @note This is an example class to demonstrate the implementation of the Iterable interface
- * @author David Kariuki
- * @since 11/01/2023
- */
-
 package iterable.implementation;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
-public class Person implements Iterable {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
-    private final List<Person> personList = new ArrayList<>();
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+public class Person {
 
-    /**
-     * Iterator method
-     *
-     * @return Iterator<PersonExample>
-     */
-    public Iterator<Person> iterator() {
-        return this.personList.iterator();
+    private String fullName;
+    private String dateOfBirth;
+    private Gender gender;
+
+    public enum Gender {
+        MALE, FEMALE
     }
 }
+
+
