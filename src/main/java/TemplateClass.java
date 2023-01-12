@@ -1,10 +1,8 @@
 /**
  * @note
  * @author David Kariuki
- * @since /01/2023
+ * @since 11/01/2023
  */
-
-package iterator;
 
 public class TemplateClass {
 

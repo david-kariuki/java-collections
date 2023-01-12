@@ -8,11 +8,26 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
-
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+
+    // Annotation Processor
+    annotationProcessor 'org.projectlombok:lombok:1.18.24' // Lombok
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24' // Lombok
+
+    // Compile Only
+    compileOnly 'org.projectlombok:lombok:1.18.24' // Lombok
+
+    // Test Implementation
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0' // Jupiter JUnit
+
+    // Test Compile Only
+    testCompileOnly 'org.projectlombok:lombok:1.18.24' // Lombok
+    // Test Runtime Only
+
+    // Test Runtime Only
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0' // Jupiter JUnit
 }
+
 
 test {
     useJUnitPlatform()
