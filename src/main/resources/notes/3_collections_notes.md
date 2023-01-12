@@ -133,6 +133,53 @@ They are just ignored. Here is an example of retaining all elements from one Col
     
     target.retainAll(colB);  //target now contains [1,2,3]
 
+### Checking if a Collection Contains a Certain Element
+
+The Collection interface has two methods to check if a Collection contains one or more certain elements.
+These are the `contains()` and `containsAll()` methods. They are illustrated here:
+
+    Collection collection   = new HashSet();
+    boolean containsElement = collection.contains("an element");
+    
+    Collection elements     = new HashSet();
+    boolean containsAll     = collection.containsAll(elements);
+
+`contains()` returns true if the collection contains the element, and false if not.
+`containsAll()` returns true if the collection contains all the elements in the parameter collection, and false if not.
+
+### Collection Size
+
+You can check the size of a collection using the size() method. By "size" is meant the number of elements in the
+collection. Here is an example:
+
+    int numberOfElements = collection.size();    
+
+### Iterate a Collection
+
+You can iterate all elements of a collection. This is done by obtaining a Java Iterator from the collection,
+and iterate through that. Here is how it looks:
+
+    Collection collection = new HashSet();
+
+    //... add elements to the collection
+    
+    Iterator iterator = collection.iterator();
+    while(iterator.hasNext()){
+        Object object = iterator.next();
+        System.out.println(object);
+    }
+
+You can also iterate a Java Collection using the Java for-each loop :
+
+    Collection collection = new HashSet();
+    collection.add("A");
+    collection.add("B");
+    collection.add("C");
+    
+    for(Object object : collection) {
+        System.out.println(object);
+    }
+
 <br>
 
 ### Reference
