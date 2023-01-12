@@ -251,7 +251,7 @@ Here is an example of how it looks during iteration of the above ListIterator:
 
 <br>
 
-### Reference 
+### Reference
 
 Java Collections by `Jakob Jenkov`
 <br>[Website](https://jenkov.com/tutorials/java-collections)
