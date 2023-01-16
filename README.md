@@ -1,4 +1,3 @@
-![Cover](images/java_collections_api_cover.jpeg)
 
 
 ![GitHub issues](https://img.shields.io/github/issues/david-kariuki/JavaCollectionsAPI?&labelColor=black&color=eb3b5a&label=Issues&logo=issues&logoColor=black&style=for-the-badge) &nbsp;
