@@ -1,7 +1,7 @@
 /**
  * @note CustomIterator implementation
  * @author David Kariuki
- * @see iterator.CustomListIterator
+ * @see a_iterator.CustomListIterator
  * @since 11/01/2023
  */
 

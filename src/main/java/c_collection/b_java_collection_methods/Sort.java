@@ -1,4 +1,4 @@
-package collection.methodsofthejavacollection;
+package c_collection.b_java_collection_methods;
 
 import java.util.ArrayList;
 import java.util.Collections;
