@@ -9,8 +9,9 @@
 ![GitHub LastCommit](https://img.shields.io/github/last-commit/david-kariuki/JavaCollectionsAPI?logo=github&labelColor=black&color=d1d8e0&style=for-the-badge) &nbsp;
 
 
+<br>
 
-## Course Content
+# COURSE CONTENT
 
 1.  Java Collections Introduction
 2.  Java Collections - Overview
@@ -36,3 +37,5 @@
 22. Java Comparator
 23. Java Collections and Streams
 
+
+# [NOTES LINK](https://github.com/david-kariuki/JavaCollections/tree/master/src/main/resources/notes)
