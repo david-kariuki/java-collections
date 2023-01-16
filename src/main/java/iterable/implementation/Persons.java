@@ -17,7 +17,7 @@ public class Persons implements Iterable<Person> {
     /**
      * Iterator method
      *
-     * @return Iterator<PersonExample>
+     * @return Iterator<Person>
      */
     public Iterator<Person> iterator() {
         return this.persons.iterator();
