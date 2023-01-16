@@ -1,12 +1,12 @@
 /**
- * @note The Java Iterator forEachRemaining() method can iterate over all the elements remaining in the Iterator
- * internally, and for each element call a Java Lambda Expression passed as parameter to forEachRemaining() .
- * Here is an example of using the Java Iterator forEachRemaining() method:
+ * @note The Java Iterator forEachRemaining() method can iterate over all the elements remaining in
+ *     the Iterator internally, and for each element call a Java Lambda Expression passed as
+ *     parameter to forEachRemaining() . Here is an example of using the Java Iterator
+ *     forEachRemaining() method:
  * @author David Kariuki
  * @since 11/01/2023
  */
-
-package iterator;
+package a_iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

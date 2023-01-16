@@ -1,11 +1,12 @@
 /**
- * @note Some collections do not allow you to modify the collection while you are iterating it via an Iterator. In that case you will get a ConcurrentModificationException the next time you call the Iterator next() method.
- * The following example results in a ConcurrentModificationException when executed:
+ * @note Some collections do not allow you to modify the collection while you are iterating it via
+ *     an Iterator. In that case you will get a ConcurrentModificationException the next time you
+ *     call the Iterator next() method. The following example results in a
+ *     ConcurrentModificationException when executed:
  * @author David Kariuki
  * @since 11/01/2023
  */
-
-package iterator;
+package a_iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

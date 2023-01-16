@@ -3,8 +3,7 @@
  * @author David Kariuki
  * @since 12/01/2023
  */
-
-package iterable;
+package b_iterable;
 
 import java.util.ArrayList;
 import java.util.List;

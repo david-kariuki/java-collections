@@ -1,11 +1,11 @@
 /**
- * @note You can iterate the elements of a Java Iterable by obtaining a Java Iterator from it by calling the Iterable
- * iterator() method. You can then iterate through that Iterator like you would with any other Iterator.
+ * @note You can iterate the elements of a Java Iterable by obtaining a Java Iterator from it by
+ *     calling the Iterable iterator() method. You can then iterate through that Iterator like you
+ *     would with any other Iterator.
  * @author David Kariuki
  * @since 11/01/2023
  */
-
-package iterable;
+package b_iterable;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,5 +1,4 @@
-package iterable.implementation;
-
+package b_iterable.implementation;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

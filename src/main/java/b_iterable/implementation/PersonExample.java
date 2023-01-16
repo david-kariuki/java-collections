@@ -1,11 +1,10 @@
 /**
- * @note An instance of {@link iterable.implementation.Persons Person} can be used with the Java for-each loop like
- * below:
+ * @note An instance of {@link b_iterable.implementation.Persons Person} can be used with the Java
+ *     for-each loop like below:
  * @author David Kariuki
  * @since 11/01/2023
  */
-
-package iterable.implementation;
+package b_iterable.implementation;
 
 public class PersonExample {
 

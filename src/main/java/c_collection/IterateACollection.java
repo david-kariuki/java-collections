@@ -7,14 +7,13 @@ import java.util.Iterator;
 /**
  * @author David Kariuki
  * @note Class to demonstrate how to iterate a collection
- * @note You can iterate all elements of a collection. This is done by obtaining a Java Iterator from the collection,
- * and iterate through that
- * You can iterate a collection using an iterator or by using a for-each loop
- * @see iterable.IterateViaAnIterator - Iterator
- * @see iterable.IterateViaForEachLoop - forEach loop
+ * @note You can iterate all elements of a collection. This is done by obtaining a Java Iterator
+ *     from the collection, and iterate through that You can iterate a collection using an iterator
+ *     or by using a for-each loop
+ * @see b_iterable.IterateViaAnIterator - Iterator
+ * @see b_iterable.IterateViaForEachLoop - forEach loop
  * @since 12/01/2023
  */
-
 @SuppressWarnings("WhileLoopReplaceableByForEach")
 public class IterateACollection {
 

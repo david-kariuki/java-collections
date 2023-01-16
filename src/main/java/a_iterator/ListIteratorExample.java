@@ -3,8 +3,7 @@
  * @author David Kariuki
  * @since /01/2023
  */
-
-package iterator;
+package a_iterator;
 
 import java.util.ArrayList;
 import java.util.List;

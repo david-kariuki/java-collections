@@ -1,11 +1,11 @@
 /**
- * @note You can iterate the elements of a Java Iterable via its forEach() method. The forEach() method takes a Java
- * Lambda Expression as parameter. This lambda expression is called once for each element in the Iterable.
+ * @note You can iterate the elements of a Java Iterable via its forEach() method. The forEach()
+ *     method takes a Java Lambda Expression as parameter. This lambda expression is called once for
+ *     each element in the Iterable.
  * @author David Kariuki
  * @since 11/01/2023
  */
-
-package iterable;
+package b_iterable;
 
 import java.util.ArrayList;
 import java.util.List;

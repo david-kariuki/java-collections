@@ -1,12 +1,13 @@
 /**
- * @note The Java Iterator interface has a remove() method which lets you remove the element just returned by next()
- * from the underlying collection. Calling remove() does not cause a ConcurrentModificationException to be thrown.
- * @note Here is an example of removing an element from a collection during iteration of its Iterator:
+ * @note The Java Iterator interface has a remove() method which lets you remove the element just
+ *     returned by next() from the underlying collection. Calling remove() does not cause a
+ *     ConcurrentModificationException to be thrown.
+ * @note Here is an example of removing an element from a collection during iteration of its
+ *     Iterator:
  * @author David Kariuki
  * @since 11/01/2023
  */
-
-package iterator;
+package a_iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
