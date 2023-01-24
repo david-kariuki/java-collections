@@ -6,6 +6,8 @@
  */
 package b_iterable.implementation;
 
+import pojo.Person;
+
 public class PersonExample {
 
     /**

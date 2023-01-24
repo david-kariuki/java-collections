@@ -5,6 +5,8 @@
  */
 package b_iterable.implementation;
 
+import pojo.Person;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

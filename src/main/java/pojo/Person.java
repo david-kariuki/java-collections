@@ -1,4 +1,4 @@
-package b_iterable.implementation;
+package pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
