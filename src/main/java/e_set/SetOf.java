@@ -19,7 +19,7 @@ public class SetOf {
 
     Set set = Set.of();
 
-    // Generic
-    Set<String> genericSetOf = Set.of();
+    // Add to generic set using Set.of() method
+    Set<String> genericSetOf = Set.of("Element 1", "Element 2");
   }
 }

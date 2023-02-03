@@ -1,8 +1,3 @@
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
-import java.util.TreeSet;
-
 /**
  * @note A class to demonstrate
  * @author David Kariuki
@@ -15,14 +10,5 @@ public class TemplateClass {
    *
    * @param args - String array
    */
-  @SuppressWarnings("rawtypes")
-  public static void main(String[] args) {
-
-    Set hashSet = new HashSet();
-    Set<String> stringsHashSet = new HashSet<>();
-    Set linkedHashSet = new LinkedHashSet();
-    Set<String> stringsLinkedHashSet = new LinkedHashSet<>();
-    Set treeSet = new TreeSet();
-    Set<String> stringsTreeSet = new TreeSet<>();
-    }
+  public static void main(String[] args) {}
 }
