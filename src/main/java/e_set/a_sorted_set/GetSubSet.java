@@ -1,4 +1,4 @@
-package e_set.sorted_set;
+package e_set.a_sorted_set;
 
 import java.util.Collections;
 import java.util.Iterator;
