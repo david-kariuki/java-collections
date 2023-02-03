@@ -21,5 +21,7 @@ public class TreeSetExample {
     sortedSet.add("One");
     sortedSet.add("Two");
     sortedSet.add("Three");
+
+    System.out.println(sortedSet.first());
   }
 }
