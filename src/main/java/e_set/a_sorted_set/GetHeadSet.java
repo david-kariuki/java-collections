@@ -21,7 +21,7 @@ public class GetHeadSet {
   public static void main(String[] args) {
 
     SortedSet<String> sortedSet = new TreeSet<>();
-    Collections.addAll(sortedSet, "a", "b", "c", "d", "e", "f");
+    Collections.addAll(sortedSet, "b", "c", "a", "d", "e", "f");
 
     SortedSet<String> headSet = sortedSet.headSet("d"); // Get head-set
     Iterator<String> headSetIterator = headSet.iterator(); // Get iterator
@@ -29,7 +29,7 @@ public class GetHeadSet {
     // Loop iterator
     while (headSetIterator.hasNext()) {
       String element = headSetIterator.next();
-      System.out.println(element);
+      System.out.print(element + ", ");
     }
   }
 }

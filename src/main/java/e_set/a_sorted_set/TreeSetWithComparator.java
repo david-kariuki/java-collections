@@ -1,5 +1,6 @@
 package e_set.a_sorted_set;
 
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.TreeSet;
@@ -18,25 +19,23 @@ public class TreeSetWithComparator {
    */
   public static void main(String[] args) {
 
-    Comparator<String> comparator = String::compareTo;
+    Comparator<Integer> comparator = Integer::compareTo;
 
-    TreeSet<String> treeSet = new TreeSet<>(comparator);
-    treeSet.add("One");
-    treeSet.add("Two");
-    treeSet.add("Three");
+    TreeSet<Integer> treeSet = new TreeSet<>(comparator);
+    Collections.addAll(treeSet, 1, 2, 3, 4, 5);
 
-    Iterator<String> ascendingIterator = treeSet.iterator();
-    Iterator<String> descendingIterator = treeSet.descendingIterator();
+    Iterator<Integer> ascendingIterator = treeSet.iterator();
+    Iterator<Integer> descendingIterator = treeSet.descendingIterator();
 
     System.out.println("Ascending iterator");
     while (ascendingIterator.hasNext()) {
-      String element = ascendingIterator.next();
+      Integer element = ascendingIterator.next();
       System.out.println(element);
     }
 
     System.out.println("Descending iterator");
     while (descendingIterator.hasNext()) {
-      String element = ascendingIterator.next();
+      Integer element = descendingIterator.next();
       System.out.println(element);
     }
   }

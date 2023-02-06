@@ -23,7 +23,7 @@ public class GetTailSet {
     SortedSet<String> sortedSet = new TreeSet<>();
     Collections.addAll(sortedSet, "a", "b", "c", "d", "e", "f");
 
-    SortedSet<String> tailSet = sortedSet.tailSet("d"); // Get tail-set
+    SortedSet<String> tailSet = sortedSet.tailSet("c"); // Get tail-set
     Iterator<String> headSetIterator = tailSet.iterator(); // Get iterator
 
     // Loop iterator
