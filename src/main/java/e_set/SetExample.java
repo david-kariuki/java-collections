@@ -1,9 +1,11 @@
+package e_set;
+
 /**
- * @note A class to demonstrate
+ * @note Class to demonstrate an example of Set
  * @author David Kariuki
  * @since 24/01/2023
  */
-public class TemplateClass {
+public class SetExample {
 
   /**
    * Main Method
