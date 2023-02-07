@@ -6,7 +6,7 @@ import java.util.NavigableSet;
 import java.util.TreeSet;
 
 /**
- * @note A class to demonstrate how to implement a TreeSet
+ * @note A class to demonstrate how to implement a NavigableSet
  * @author David Kariuki
  * @since 06/02/2023
  */
