@@ -1,7 +1,7 @@
 /**
  * @note A class to demonstrate
  * @author David Kariuki
- * @since 24/01/2023
+ * @since 08/02/2023
  */
 public class TemplateClass {
 

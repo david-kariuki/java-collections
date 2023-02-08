@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 /**
- * @note A class to demonstrate how to implement a TreeSet
+ * @note A class to demonstrate how to implement a TreeSet with comparator
  * @author David Kariuki
  * @since 01/02/2023
  */
